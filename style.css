@@ -84,7 +84,7 @@ body{
     }
     
     .project img{
-   width: 100%;    /* This keeps the image inside its assigned grid box */
+   width: 50%;    /* This keeps the image inside its assigned grid box */
     height: auto;   /* This maintains the correct aspect ratio */
     display: block;
     margin-bottom: 15px;
