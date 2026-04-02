@@ -1,0 +1,146 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+    }
+    
+    p{  font-family: 'YGO-Title';
+    }
+    
+    /* NAV */
+    
+    nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:white;
+    }
+    
+    nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    }
+    
+    nav a{
+    text-decoration:none;
+    color:black;
+    }
+    
+    
+    /* HOME */
+    
+    .home{
+    padding:80px;
+    text-align:center;
+    background:white;
+    }
+    
+    .button{
+    background:black;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    }
+    
+    
+    /* ABOUT */
+    
+    .about{
+    padding:80px;
+    float: left;
+    }
+    
+    .about-container{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    }
+    
+    .about img{
+    width:200px;
+    height: 300px;
+    }
+    
+    .shows img{
+    width:175px;
+    height: 250px;
+    margin:5px;
+    }
+    
+    
+    /* WORK */
+    
+    .work{
+    padding:80px;
+    background:white;
+    }
+    
+    .project-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    }
+    
+    .project img{
+    width:180%;
+    height: 100%;
+    
+    }
+    
+    
+    /* CONTACT */
+    
+    .contact{
+    padding:80px;
+    font-family: 'YGO-Title';
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    max-width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    input, textarea{
+    padding:10px;
+    }
+    
+    button{
+    background:black;
+    color:white;
+    padding:10px;
+    border:none;
+    }
+
+    .profile{
+        height: 100px;
+        
+    }
+
+    .profile-flex {
+        display: flex;         /* Moves items side-by-side */
+        align-items: center;   /* Keeps text vertically centered with the photo */
+        gap: 30px;            /* Adds a nice gap between the photo and text */
+        margin-bottom: 40px;   /* Adds space before the 'Current Shows' section */
+      }
+      
+      .profile-pic {
+        width: 250px;          /* Adjust this size to fit your design */
+        height: auto;
+      }
+      
+      /* Fix for mobile: Stacks them back up so it doesn't look squished */
+      @media (max-width: 768px) {
+        .profile-flex {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
