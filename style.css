@@ -78,15 +78,16 @@ body{
     }
     
     .project-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 40px;
     }
     
     .project img{
-    width:180%;
-    height: 100%;
-    
+   width: 100%;    /* This keeps the image inside its assigned grid box */
+    height: auto;   /* This maintains the correct aspect ratio */
+    display: block;
+    margin-bottom: 15px;
     }
     
     
